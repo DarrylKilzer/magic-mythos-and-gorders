@@ -1,15 +1,10 @@
 <template>
-  <div class="home">
-    <game />
-  </div>
+  <div class="home"></div>
 </template>
 
 <script>
-import Game from "../components/Game";
 export default {
   name: "Home",
-  components: {
-    Game,
-  },
+  components: {},
 };
 </script>

@@ -1,6 +1,7 @@
 import Phaser from 'phaser'
 import BootScene from './scenes/BootScene'
 import PlayScene from './scenes/PlayScene'
+import TestScene from './scenes/TestScene';
 
 
 function launch(containerId) {
@@ -16,7 +17,7 @@ function launch(containerId) {
                 debug: false
             }
         },
-        scene: [BootScene, PlayScene]
+        scene: [BootScene, PlayScene, TestScene]
     })
 }
 
