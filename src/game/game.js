@@ -4,7 +4,7 @@ import PlayScene from './scenes/PlayScene'
 import TestScene from './scenes/TestScene';
 
 
-function launch(containerId) {
+function launch(containerId, json) {
     return new Phaser.Game({
         type: Phaser.AUTO,
         width: 800,
@@ -18,7 +18,7 @@ function launch(containerId) {
             }
         },
         scene: [BootScene, PlayScene, TestScene]
-    })
+    }).scene.start('BootScene', json)
 }
 
 export default launch

@@ -1,0 +1,22 @@
+{ "columns":7,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"json",
+         "target":"foresttiles.png"
+        }
+    },
+ "image":"forest_tileset-32x32.png",
+ "imageheight":128,
+ "imagewidth":224,
+ "margin":0,
+ "name":"foresttiles",
+ "spacing":0,
+ "tilecount":28,
+ "tiledversion":"1.3.3",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":1.2
+}

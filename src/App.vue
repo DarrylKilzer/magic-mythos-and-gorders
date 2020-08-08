@@ -9,6 +9,14 @@
   </div>
 </template>
 
+<script>
+export default {
+  data() {
+    return {};
+  },
+};
+</script>
+
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
